@@ -1,0 +1,1386 @@
+$background: white;
+$background2: #3b77c0;
+$primary-color:  #001728;
+$secondary-color: #ffee00;
+$font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+//////////////////////////////////////////Part Identification//////////////////////////////////////////////////
+
+
+.popup1 {
+  background-color: #4f4f4f;
+  padding: 0px;
+  opacity: .90;
+}
+
+
+.popover {
+  height: 135px !important;
+  opacity:0.5 !important; 
+  width: 150px !important;
+  color: white;
+  background-color: rgba(143,21,104,1);
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.popover-arrow:after {
+  background-color: rgba(143,21,104,1) !important;
+}
+
+div.backdrop.visible.active {  
+  background-color:rgba(0,0,0,0) !important;
+}
+div.popover-backdrop.active {
+  background-color:rgba(0,0,0,0) !important;
+}
+
+// buttons
+.btnconfirm {
+  background: $primary-color;
+/*  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 10;*/
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.btnreject {
+  background: #e0e0e0;
+  background-image: -webkit-linear-gradient(top, #e0e0e0, #6b6b6b);
+  background-image: -moz-linear-gradient(top, #e0e0e0, #6b6b6b);
+  background-image: -ms-linear-gradient(top, #e0e0e0, #6b6b6b);
+  background-image: -o-linear-gradient(top, #e0e0e0, #6b6b6b);
+  background-image: linear-gradient(to bottom, #e0e0e0, #6b6b6b);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  width: 100%;
+}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly]:not(.cloned-text-input), textarea[readonly]:not(.cloned-text-input), select[readonly] {
+    background-color: #4f4f4f;
+    cursor: auto;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+  display: block;
+  padding-top: 2px;
+  padding-left: 0;
+  height: 100%;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+  background-color: #4f4f4f;
+  }
+
+.item-input {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 6px 0 5px 16px;
+   background-color: #4f4f4f;
+}
+
+.item-select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0 48px 0 16px;
+    max-width: 100%;
+    border: none;
+    background: #fff;
+    color: white;
+    text-indent: .01px;
+    text-overflow: '';
+    white-space: nowrap;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4f4f4f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////Service///////////////////////////////////////////////////////////
+
+.servicebutton {
+  text-transform: uppercase;
+  font-family: $font;
+  font-weight: 700;
+  background-color: $primary-color;
+  color: white;
+}
+
+.hiddenbutton {
+  top: 50px;
+  left: 0px;
+  opacity: 0;
+}
+
+.backbutton {
+
+  background-color: rgb(76, 139, 124);
+  width: 120px;
+  height: 50px;  
+  text-transform: uppercase;
+  color: #ffffff;
+  /*font-stack: $font;*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.row1{
+  padding-top: 0px;
+  border-bottom: 1px solid $secondary-color;
+}
+
+.row2{
+  padding-top: 0px;
+  /*border-bottom: 1px solid $secondary-color;*/
+}
+
+.column1{
+  padding-top: 0px;
+  border-right: 1px solid $secondary-color;
+}
+
+.column2{
+  border-top: 1px solid $secondary-color;
+  border-right: 1px solid $secondary-color;
+  border-bottom: 1px solid $secondary-color;
+}
+
+.column3{
+  border-top: 1px solid $secondary-color;
+  border-bottom: 1px solid $secondary-color;
+}
+
+.popup2 {
+  background-color: #4f4f4f;
+  padding: 0px;
+  opacity: .85;
+}
+
+
+.header3 {
+  font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 100%; 
+  position: relative; 
+  vertical-align: middle;
+  color: white;
+  padding: 10px 5px 10px 5px;
+  background: white;
+  
+}
+
+.header4 {
+  font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  text-align: center;
+  line-height: 100%; 
+  position: relative; 
+  vertical-align: middle;
+  color: white;
+  padding: 10px 5px 10px 5px;
+  background: #4f4f4f;
+  
+}
+
+.header5 {
+  text-transform: uppercase;
+  font-family: $font; 
+  font-size: 34px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 600; 
+  line-height: 100%;
+  position: relative; 
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  color: white;
+  border-bottom: 1px solid $secondary-color;
+  margin-bottom: 10px;
+  background: rgba(79,79,79,0);
+}
+
+.subheader {
+  font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 13.2px; 
+  position: relative; 
+  vertical-align: middle;
+  color: white;
+  padding: 5px;
+  background: #4f4f4f;
+}
+
+.simple-label{
+  font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 100%;
+  position: relative; 
+  vertical-align: middle;
+  padding: 25px 5px 25px 5px;
+  color: white;
+  background: $background;
+}
+
+.simple-label3{
+  font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 100%;
+  position: relative; 
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  color: white;
+  background: rgba(79,79,79,0);
+}
+
+.steppopup2 {
+  background-color:$primary-color;
+}
+
+.popupbuttonBig {
+
+  background-color: white;
+  width: 220px;
+  height: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #3b77c0;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.popupHeaderSmall{
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 600; 
+  line-height: 100%;
+  position: relative; 
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  color: #3b77c0;
+  border-bottom: 5px solid red;
+  margin-bottom: 10px;
+  background: white;
+}
+
+
+
+///////////////////////////////////////////Safety Training/////////////////////////////////////////////////////
+
+
+.popupbutton1 {
+
+  background-color: $primary-color;
+  width: 130px;
+  height: 50px;
+  
+  text-transform: uppercase;
+  color: #ffffff;
+  /*font-stack: "Helvetica";*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.icon-size{
+ font-size: 36px; 
+}
+
+/*  statusText style that floats label on 2d overlay per below  */
+.statusText{
+	  width: 340px;
+	  word-wrap: break-word;
+	  border-radius: 4px;
+	  position: fixed;
+	  top: 40px;
+	  right: 30px;
+	  margin-left: -100px;
+	  font-size: 14px;
+	  color: #fff;
+	  background: rgba(76,139,124,1.0);
+	  padding: 10px !important;
+}
+
+.popup {
+  border: 2px #2884ad;;
+  border-radius: 8px 8px 8px 8px;
+  background-color: #4f4f4f;
+  max-width: 500px;
+  opacity: .85;
+}
+
+.header2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  text-align: center;
+  line-height: 100%; 
+  position: relative; 
+  vertical-align: middle;
+  color: white;
+  padding: 10px 5px 10px 5px;
+  background: #4f4f4f;
+  padding-top: 0px;
+  border-bottom: 1px solid #ffee00;
+  
+}
+
+.simple-label2{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 100%;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  padding: 25px 5px 25px 5px;
+  color: white;
+  background: #4f4f4f;
+  
+}
+
+.popupBackground{
+  background: rgba(0,0,0,1.0);
+}
+
+.greenBackground{
+  background: rgba(76,139,124,1.0);
+}
+
+.whiteBackground{
+  background: rgba(222,222,222,1.0);
+}
+
+
+.textbox {
+  background-color:  #4f4f4f;
+  border: none;
+}
+
+input[type=text] {
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+}
+
+
+.twxChalkIcon {
+  background: url(#{$resources}/Uploaded/chalkg.png);
+  background-repeat: no-repeat;
+  background-color:rgba(0, 0, 0, 0.0);
+  background-position: center center;
+  display: block;
+  background-size: cover;
+  height: 55px;
+  width: 55px; } 
+
+.topText {  
+  //width: 100px; 
+  color: white; 
+/*  font-stack: "Helvetica"; */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold; 
+  font-size: 20px; 
+}
+ 
+
+////////////////////////////////////////////////MFG Changeover///////////////////////////////////////////////
+
+
+//background of the grids/rows/columns
+
+.solidgrey {
+  background-color: #3b77c0;
+  /*height: 65px;*/
+}
+.solidgrey2 {
+  background-color: #001728;
+  /*height: 65px;*/
+}
+
+.solidgreen {
+  background-color: #3b77c0;
+}
+
+.transparentgrey {
+  background-color: #3b77c0;
+  border-radius: 8px 8px 8px 8px;
+}
+	
+	//grey-green
+.gradient { 
+   background: linear-gradient(to bottom left, $primary-color 50%, $background2 50%); 
+}
+
+//labels
+
+.popupHeader{
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 34px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 600; 
+  line-height: 100%;
+  position: relative; 
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  color: white;
+  border-bottom: 1px solid #ffee00;
+  margin-bottom: 10px;
+  background: rgba(79,79,79,0);
+}
+
+.popupText{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: 100%;
+  position: relative; 
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  color: white;
+  background: rgba(79,79,79,0);
+}
+
+
+
+
+
+//popups
+
+.clearPopup {
+ background-color: rgba(0, 0, 0, 0);
+ box-shadow: none;
+ opacity: .85;
+ padding: 0;
+}
+
+	//add a max-width for the module popups	
+
+.clearPopupMax-Width {
+ background-color: rgba(0, 0, 0, 0);
+ box-shadow: none;
+ max-width: 500px;
+ opacity: .85;
+ border-radius: 8px 8px 8px 8px;
+}
+
+
+
+
+
+
+//animation buttons
+
+.togglebutton {
+  background-color: $primary-color;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+	//change the style when the button is pressed
+
+.tbuttonpressed {
+  background-color: rgb(87, 159, 142);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+	//style for the chalk button, no need to apply the class to the button (automatically does it)	
+
+.twxChalkIcon {
+  background: url(#{$resources}/Uploaded/chalkg.png);
+  background-repeat: no-repeat;
+  background-color:rgba(0, 0, 0, 0.0);
+  background-position: center center;
+  display: block;
+  background-size: cover;
+  height: 55px;
+  width: 55px; }
+
+
+
+
+
+
+//popup buttons
+
+
+.popupbutton {
+
+  background-color: $primary-color;
+  width: 120px;
+  height: 50px;
+  
+  text-transform: uppercase;
+  color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  font-stack: "Helvetica";*/
+  font-weight: bold;
+  font-size: 28px;
+}
+
+
+
+
+//////////////////////////////////////////////////Home Page///////////////////////////////////////////////
+
+
+
+.background {
+  /*background-image: linear-gradient(to bottom right, #4f4f4f, #737373);*/
+  background-image: url(#{$resources}/Uploaded/test8.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.buttons {
+  background: #3b77c0;
+
+  border-radius: 10px;
+  font-family: Arial;
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 12vh;
+  width: 35vw;
+}
+
+.transparentpopup {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+
+}
+
+.header {
+ font-family: $font; 
+  font-size: 35px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 100%; 
+  position: relative; 
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  padding: 0px 5px 0px 5px;
+  background: #3b77c0;
+  
+}
+.steplabel{
+  text-transform: uppercase;
+  font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  /*font-variant: normal; */
+  font-weight: 400; 
+  line-height: 100%;
+  position: relative; 
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  color: white;
+  background: #3b77c0;
+
+}
+
+
+
+@media all and (orientation: landscape)  {
+
+  .image1 {
+  max-height: 25vh;
+}
+  
+    .button_img {
+    border-radius:14px;
+    width: 20vw;
+    height: 24vh;
+  }
+  .button_img:hover {
+    cursor: pointer;
+    outline-color: transparent;
+    outline-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 0 0 5px 6px #00308f;
+    transform :scale(1.1);
+  }
+      .button_Front {
+    border-radius:14px;
+    width: 120px;
+    height: 30px;
+            background: #3b77c0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .button_Front:hover {
+    cursor: pointer;
+    outline-color: transparent;
+    outline-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 0 0 5px 6px #00308f;
+    transform :scale(1.1);
+  }
+  
+      .button_img_test1 {
+    border-radius:0px;
+    width: 20vw;
+    height: 24vh;
+  }
+
+    .Asm_Img{
+    width: 50vw;
+    height: 40vh;
+    margin: 2px
+  }
+  
+    .FrontImage{
+    width: 50vw;
+    height: 50vh;
+    
+    background: transparent; 
+  }
+    .TataLogo {
+    width: 110px;
+      padding: 0px 5px 0px 5px;
+  }
+  
+     .pad{
+     
+      padding: 0px 5px 0px 5px;
+   }
+   .image{
+    width: 38vw;
+    height: 38vh;
+    margin: 2px
+  } 
+  .logo {
+  height: 55px;
+  width: auto;
+  
+}
+  
+.logorow{
+  height: 80px;
+}
+  
+.header {
+ font-family: $font; 
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 500; 
+  line-height: 100%; 
+  position: relative; 
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  padding: 0px 5px 0px 5px;
+  background: #3b77c0;
+  
+}
+  
+  .Header {
+ font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 100%; 
+  position: relative; 
+  vertical-align: middle;
+  text-align: center;
+  color: #3b77c0;
+  padding: 0px 5px 0px 5px;
+  background: transparent;
+  
+}
+    .Header2 {
+ font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 600; 
+  line-height: 100%; 
+  position: relative; 
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  padding: 0px 5px 0px 5px;
+  background: transparent;
+  
+}
+  
+  .back{
+   background: #3b77c0;
+  
+   }
+  
+.steplabel{
+  text-transform: uppercase;
+  font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  /*font-variant: normal; */
+  font-weight: 500; 
+  line-height: 100%;
+  position: relative; 
+  text-align: center;
+  vertical-align: middle;
+  padding: 8px;
+  color: white;
+  background: #3b77c0;
+
+}
+.solidgreyStep {
+  background-color: #3b77c0;
+}
+ 
+.steppopup1 {
+  background-color: $background;
+}
+  
+  .input-label {
+  color:white;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+}
+
+
+ @media all and (orientation: portrait) {
+.logo {
+  height: 55px;
+  width: auto;
+}
+     .FrontImage{
+    width: 89vw;
+    height: 55vh;
+    background: transparent; 
+  }
+   
+     .Asm_Img{
+    width: 89vw;
+    height: 55vh
+  }
+   
+     .TataLogo {
+    width: 110px;
+       padding: 0px 5px 0px 5px;
+  }
+   
+   .pad{
+     
+      padding: 0px 5px 0px 5px;
+   }
+   
+   .image{
+    width: 89vw;
+    height: 55vh
+  }  
+   .image1 {
+  max-height: 21vh;
+}
+.logorow{
+  height: 60px;
+}
+
+.header {
+ font-family: $font; 
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 500; 
+  line-height: 100%; 
+  position: relative; 
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  padding: 10px 5px 10px 5px;
+  background: #3b77c0;
+  
+  margin-bottom: 5px;
+  
+}
+   
+   .Header {
+ font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 100%; 
+  position: relative; 
+  vertical-align: middle;
+  text-align: center;
+  color: #3b77c0;
+  padding: 10px 5px 10px 5px;
+  background: transparent;
+
+  margin-bottom: 10px;
+  
+}
+       .Header2 {
+ font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 600; 
+  line-height: 100%; 
+  position: relative; 
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  padding: 0px 5px 0px 5px;
+  background: transparent;
+  
+}
+.back{
+   background: #3b77c0;
+  
+   }
+  
+.steplabel {
+  text-transform: uppercase;
+  font-family: $font; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 500; 
+  line-height: 100%;
+ 
+  position: relative; 
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  color: white;
+  background: $background;
+    background: #3b77c0;
+  
+
+  }
+  
+.solidgreyStep {
+  background-color: $background;
+  border-bottom: 1px solid $secondary-color;
+  margin-bottom: 15px;
+} 
+  
+.steppopup1 {
+  background-color: $background;
+  border-bottom: 1px solid $secondary-color;
+  margin-bottom: 15px;
+}
+  .input-label {
+  display: none;
+  
+}
+   
+     .button_img {
+    border-radius:14px;
+    width: 29vw;
+    height: 17vh;
+  }
+  .button_img:hover {
+    cursor: pointer;
+    outline-color: transparent;
+    outline-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 0 0 5px 6px #00308f;
+    transform :scale(1.1);
+  }
+         .button_Front {
+    border-radius:14px;
+    width: 120px;
+    height: 30px;
+    background: #3b77c0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+  }
+  .button_Front:hover {
+    cursor: pointer;
+    outline-color: transparent;
+    outline-style:solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 0 0 5px 6px #00308f;
+    transform :scale(1.1);
+  }
+   
+       .button_img_test1 {
+    border-radius:0px;
+    width: 20vw;
+    height: 24vh;
+  }
+
+  
+}
+
+
+
+.custom-inspection{
+   padding: 12px 15px;
+    text-align: center;
+    background-color: yellow; /* Apply the same background color to all headers */
+    font-size: 22px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333; /* Dark text for contrast */
+    opacity: 1; /* Ensuring full opacity */
+  
+}
+
+  
+  
+
+
+///////////////////////
+
+.custom-popup .popup {
+  background-color: #001728; /* Blue background */
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  width: 320px;
+  transform: translate(0, 0); /* Reset the transform property */
+}
+
+.custom-popup .popup-container {
+  max-width: initial; /* Allow popup to expand horizontally */
+}
+
+.custom-popup .popup-title {
+  color: #ffffff; /* White text */
+}
+
+.custom-popup .popup-buttons {
+  background-color: #001728; /* Blue background */
+}
+
+.custom-popup .popup-buttons button {
+  color: #ffffff; /* White button text */
+}
+
+
+
+////////////////////////////////////////////////////////////
+
+.ptc-DataGrid th {
+    background-color: yellow;
+    font-size: 22px;
+    opacity: 1;
+    font-family: Century Gothic;
+}
+
+.ptc-DataGrid tr {
+  background-color: #00acc8;
+  border: none;
+  font-family: Century Gothic;
+}
+
+.ptc-DataGrid .item-row:hover {
+  background-color: #fff;
+}
+
+.ptc-DataGrid .item-row.selected {
+  background-color: #fff;
+}
+
+
+.test{
+  background-color: #BF9001;
+
+}
+///////////////////////////////////////Gesture popup////////////////////
+
+.dark-popup{
+  background: rgba(0,0,0,0.95);
+}
+
+.white-label{
+  color: #fff;
+  font-size: 11px;
+  &.title{
+    font-weight: bold;
+    font-size: 12px;
+  }
+}
+
+.close-button{
+  background: #67b730;
+  color: #fff;
+  border: none;
+  margin: 0;
+  font-size: 12px;
+    padding: 10px 20px !important;
+    line-height: initial;
+    min-height: auto;
+  &:active{
+    background: darken(#67b730, 20%);
+  }
+  &:hover{
+    color: #fff;
+  }
+}
+
+.text-centered{
+  text-align: center;
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .dark-popup{
+      transform: translate(-50%, -50%) scale(0.80) !important;
+    }
+
+}
+
+
+
+
+/////////////////////////////////////////////////////////
+
+
+/* General Popup Styling */
+.popup {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.popup label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+.popup input, .popup select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.popup input:focus, .popup select:focus {
+    border-color: #007aff;
+    outline: none;
+}
+
+/* Buttons Styling */
+.popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.popup-buttons .button-positive {
+    background-color: #007aff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.popup-buttons .button-positive:hover {
+    background-color: #005bb5;
+}
+
+.popup-buttons .btnclose {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.popup-buttons .btnclose:hover {
+    background-color: #999;
+}
+
+/* Cart Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+table td {
+    color: #555;
+    font-size: 14px;
+}
+
+table tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+header {
+    background-color: #007aff;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* General Button Styling */
+button {
+    background-color: #007aff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+
+///////////////////////////////////
+/* Custom Table Styling for Inspection */
+.custom-inspection-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Century Gothic', sans-serif; /* Updated font */
+}
+
+.custom-inspection-table th {
+    padding: 12px 15px;
+    text-align: center;
+    background-color: yellow; /* Apply the same background color to all headers */
+    font-size: 22px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333; /* Dark text for contrast */
+    opacity: 1; /* Ensuring full opacity */
+}
+
+/* Styling for the rest of the table (no background change for td) */
+.custom-inspection-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff; /* Keep cells white */
+    color: #444; /* Dark text */
+    font-size: 13px;
+}
+
+/* Add hover effect for table rows */
+.custom-inspection-table tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
+
+/* Optional: Alternate row colors for better readability */
+.custom-inspection-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+
+
+/* Make table responsive */
+@media screen and (max-width: 768px) {
+    .custom-inspection-table th, 
+    .custom-inspection-table td {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+
+/* General Button Styling */
+.custom-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px; /* Adds spacing between buttons */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Update Button Styling */
+.custom-button-update {
+    background-color: #34d399; /* Green color for Update */
+    color: #fff; /* White text */
+}
+
+.custom-button-update:hover {
+    background-color: #059669; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Clear Button Styling */
+.custom-button-clear {
+    background-color: #ef4444; /* Red color for Clear */
+    color: #fff; /* White text */
+}
+
+.custom-button-clear:hover {
+    background-color: #dc2626; /* Darker red on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Optional: Button focus effect for better accessibility */
+.custom-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15); /* Focus outline */
+}
+
