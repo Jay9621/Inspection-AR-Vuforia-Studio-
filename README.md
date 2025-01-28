@@ -19,15 +19,13 @@ Inspection AR is a project built using **Vuforia Studio** and **ThingWorx** to c
 
 ## Vuforia Studio
 
-![image (3)](https://github.com/user-attachments/assets/6cd1eb39-e504-40e2-bef1-d22b32a33b4f)   ![image (4)](https://github.com/user-attachments/assets/20a2adf3-b8fd-4ed8-a77b-f916547d06db)
-![image (5)](https://github.com/user-attachments/assets/25128423-3216-4bcf-a805-aab523d8ef43)
-
+![image (3)](https://github.com/user-attachments/assets/6cd1eb39-e504-40e2-bef1-d22b32a33b4f)   ![403374564-20a2adf3-b8fd-4ed8-a77b-f916547d06db](https://github.com/user-attachments/assets/409eb478-8978-4b35-8fe6-bd3a898fca01)
+![407172687-1605b6ca-5d5d-4e64-a676-0c3172404c1b](https://github.com/user-attachments/assets/f65b2273-6b5e-4ce5-a611-c2240ca74ea2)
 
 ## Thingworx 
-- Data Table: TSDPL_P1_DataTable
- ![image (8)](https://github.com/user-attachments/assets/2ded2ea4-5b67-40ff-8837-2fe8118efb34)
-![image (7)](https://github.com/user-attachments/assets/4f54b3fb-0bb8-4a4d-9227-ce24874e9e56)
-
+- Data Table: DataTable
+![403376699-2ded2ea4-5b67-40ff-8837-2fe8118efb34](https://github.com/user-attachments/assets/6749b146-9084-43da-9eae-f4310d4122b8)
+![403376312-4f54b3fb-0bb8-4a4d-9227-ce24874e9e56](https://github.com/user-attachments/assets/e8525a8b-6957-4be2-8e6a-5f4cbf547152)
 
 - Update_Table
 ![image (9)](https://github.com/user-attachments/assets/315017b6-258c-4aa7-aea8-abee9cc94cde)
@@ -38,9 +36,9 @@ Inspection AR is a project built using **Vuforia Studio** and **ThingWorx** to c
 ![image (11)](https://github.com/user-attachments/assets/6926f683-8306-4df4-931a-17f9664c77f3)
 ![image (12)](https://github.com/user-attachments/assets/bab8e90a-0cfa-45ba-b522-bb1bf7b7ddbe)
 
-- TSDPL_P1_DataShape
+- DataShape
+![403378197-f15c7f10-74e3-4c3b-9b43-254da712c84f](https://github.com/user-attachments/assets/38b0aee0-3369-4fce-824b-31f6d357af9b)
 
-![image (13)](https://github.com/user-attachments/assets/f15c7f10-74e3-4c3b-9b43-254da712c84f)
 
 
 
